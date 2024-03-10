@@ -1,8 +1,9 @@
 require("dotenv").config();
 const fs = require("node:fs");
 const path = require("node:path");
+const mongoose = require("mongoose");
 
-const { DISCORD_TOKEN: token } = process.env;
+const { DISCORD_TOKEN: token, MONGODB_SRV: database } = process.env;
 
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
 
@@ -43,5 +44,16 @@ for (const file of commandFiles) {
         console.log(`Warning: command at ${filePath} is missing a "data" or "execute" property`);
     }
 }
+
+mongoose.connect(database, {
+    usenewurlparser: true,
+    useunifiedtopology: true,
+})
+    .then(() => {
+        console.log("Connected to MongoDB");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
 
 client.login(token);
