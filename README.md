@@ -1,4 +1,4 @@
-# 🤖 Financial Education Bot for Discord
+# 🤖 Financial Education Discord Bot
 
 ## 📜 About the Bot
 This Discord bot is designed to teach basic financial concepts in a fun and interactive way. Targeted mainly at students, it uses quizzes to educate users about financial literacy. Earn virtual coins for each correct answer and compete on the leaderboard!
