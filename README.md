@@ -16,7 +16,7 @@ This Discord bot is designed to teach basic financial concepts in a fun and inte
 
 ## 📝 How to Use
 - Join a Discord server where the bot is installed.
-- Use the bot's command to begin a quiz.
+- Use the bot's `/startquiz` command to begin a quiz.
 - Answer questions using the interactive prompts provided by the bot.
 - Check the leaderboard to see your ranking.
 
