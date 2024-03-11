@@ -45,10 +45,7 @@ for (const file of commandFiles) {
     }
 }
 
-mongoose.connect(database, {
-    usenewurlparser: true,
-    useunifiedtopology: true,
-})
+mongoose.connect(database)
     .then(() => {
         console.log("Connected to MongoDB");
     })

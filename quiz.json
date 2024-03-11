@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is compound interest?",
+    "options": [
+      "Interest on the principal amount only",
+      "Interest on principal plus interest on interest",
+      "A fixed interest rate for the life of an investment",
+      "Interest that is calculated daily"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is APR?",
+    "options": [
+      "Annual Percentage Rate",
+      "Monthly interest rate",
+      "The total yearly cost of funds",
+      "None of the above"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does it mean to diversify your investments?",
+    "options": [
+      "To invest all your money in one place",
+      "To spread your investments across various assets",
+      "To exchange your investments frequently",
+      "To invest only in stocks"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If you have a loan with an interest rate of 10% per annum, how much interest will accrue on $100 over one year?",
+    "options": ["$10", "$15", "$20", "$25"],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is a credit score?",
+    "options": [
+      "A numerical expression based on a level analysis of a person's credit files",
+      "A report detailing a person's financial history and assets",
+      "The interest rate on a loan that a person has taken",
+      "A score given to a person based on their job stability"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary benefit of having a savings account?",
+    "options": [
+      "To make day-to-day transactions easier",
+      "To earn interest on the money stored",
+      "To borrow money for purchasing a home",
+      "To invest in the stock market"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If you deposit $200 in a savings account with an annual interest rate of 5%, how much will you have in total after one year?",
+    "options": ["$205", "$210", "$215", "$220"],
+    "correctIndex": 1
+  }
+]
